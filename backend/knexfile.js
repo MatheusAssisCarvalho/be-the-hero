@@ -1,4 +1,5 @@
 // Update with your config settings.
+// Base do banco de dados
 
 module.exports = {
 
@@ -8,7 +9,7 @@ module.exports = {
       filename: './src/database/db.sqlite'
     },
     migrations: {
-      directory: './src/database/migrations'
+      directory: './src/database/migrations' // Criamos esse item
     },
     useNullAsDefault: true
   },
